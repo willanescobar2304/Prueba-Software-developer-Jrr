@@ -1,0 +1,70 @@
+#video-post{
+    width: 100%;  
+    height: 18vw;
+    border-radius: 20px;
+}
+#post-buttons-icons-video{
+    margin-left: 1vw;
+    margin-right: 1vw ;
+}
+.container-edit-video{
+    width: 40%;
+    height: 50%;
+    background-color: #1d1d1d;
+    border-radius: 4%;
+    margin-left: 30%;
+    margin-top: 10%;
+    border: 2px solid #4a4a4a;
+}
+#head-edit-video{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: #252525;
+    border-radius: 4%;
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+}
+#head-edit-video h3{
+    margin-left: 4%;
+}
+#upload-video-edit{
+    background-color: #252525;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 94%;
+    height: 60%;
+    border-radius: 2%;
+    border: 3px dashed #4a4a4a;
+}
+.icon-video-edition{
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 2%;
+}
+#upload-video-edit p{
+    text-align: center;
+}
+#cancel-or-saved{
+    display: flex;
+    gap: 10;
+    margin-top: 2%;
+}
+#cancel-edit-video{
+    background-color: transparent;
+    width: 20%;
+    height: 2.3vw;
+    text-transform: none;
+    color: white;
+    border-radius: 20px;
+    margin-left: 57.5%;
+}
+#saved-edit-video{
+    background-color: #39D370;
+    width: 20%;
+    height: 2.3vw;
+    text-transform: none;
+    color: black;
+    border-radius: 20px;
+}
